@@ -21,7 +21,6 @@ btns.forEach(function(item){
 
 function clicou (){
     display.innerHTML += this.innerHTML;
-    historico.innerHTML += this.innerHTML;
 }
 
 function clear (){
@@ -33,6 +32,7 @@ function clear (){
 function resultado(){
 
     if(display){
+        historico.innerHTML += display.innerHTML + " | "
         display.innerHTML = eval(display.innerHTML)
     }
 

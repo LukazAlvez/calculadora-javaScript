@@ -70,6 +70,7 @@ body{
 
 .btn{
     padding: 20px;
+    background-color: #328796;
     border: 2px solid #eee;
     margin: 5px;
     
@@ -92,6 +93,7 @@ body{
 #igual{
     padding: 20px 63px;
     border: 2px solid #eee;
+    background-color: #24c481;
     margin: 5px;
     
     display: flex;
@@ -112,6 +114,7 @@ body{
 #apagar{
     padding: 20px;
     border: 2px solid #eee;
+    background-color: #c43131;
     margin: 5px;
     
     display: flex;
